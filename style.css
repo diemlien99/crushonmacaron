@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: CF Spaceship;
+    src: url(font/CfSpaceshipRegular-2d4e.ttf);
+}
+
+@font-face {
+    font-family: Avocado Creamy;
+    src: url(font/AvocadoCreamy-z89Rw.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7F7F2;
+    color: #D47A78;
+}
+
+a{
+    text-decoration: none;
+    color: #D47A78;
+}
+
+h1{
+    font-family: 'Avocado Creamy', sans-serif;
+    font-size: 48px;
+}
+
+.header{
+    font-family: 'CF Spaceship';
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 0;
+    width: 100%;
+    position: fixed;
+}
+
+
+.logo img{
+    height: 50px;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header li a{
+    color: #D47A78;
+    text-decoration: none;
+    margin: 0 32px;
+    font-size: 20px;
+}
+
+.menu li a{
+    font-size: 24px;
+    margin: 0 8px;
+}
+   
+.sub-menu{
+    font-family: 'Montserrat', sans-serif;
+    width: 210px;
+    background-color: #e5dbd1ba;
+    text-transform: capitalize;
+    position: absolute;
+    text-align: start;
+    border-radius: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.2s;
+}
+
+.sub-menu li{
+    margin: 8px 0;
+}
+
+.nav li:hover a{
+    color: white;
+}
+.nav li:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu li:hover a{
+    color: #D47A78;
+}
+/* MAIN */
+.banner{
+    background-image: url(img/pexels-diana-light-7296683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.banner img{
+    width: 400px;
+}
+
+.cont1{
+    font-family: 'Avocado Creamy', sans-serif;
+    font-size: 72px;
+}
+.cont2{
+    font-family: 'CF Spaceship';
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.click{
+    color: white;
+    background-color: #D47A78;
+    padding: 8px;
+    border-radius: 10px;
+}
+.click:hover{
+    background-color: white;
+    color: #D47A78;
+}
+
+.best{
+    margin: 80px 0;
+    text-align: center;
+}
+.box{
+    overflow: hidden;
+    margin-top: 24px;
+}
+
+.feature img{
+    width: 100%;
+}
+
+.best-sell{
+    padding: 12px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.icon{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.icon a{
+    color: #D47A78;
+}
+ion-icon:hover{
+    color: white;
+}
+
+.table{
+    margin-top: 24px;
+}
+.table a{
+    color: white;
+    background-color: #D47A78;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.table a:hover{
+    background-color: white;
+    color: #D47A78;
+}
+.line{
+    border-top: #D47A78 solid 1px;
+}
+
+.archive{
+    margin: 80px 0;
+}
+.archive h1{
+    margin-bottom: 24px; 
+}
+
+.tag>[class*="col-"]{
+    line-height: 0;
+}
+
+.tag img{
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.text a{
+    border-radius: 10px;
+    color: #D47A78;
+}
+
+.tag .blog a:hover{
+    color: #630003;
+}
+
+.tag .photo a:hover{
+    color: #377A1D;
+}
+.tag .video a:hover{
+    color: #F2D3BF;
+}
+.tag .feedback a:hover{
+    color: #343A5C;
+}
+
+.footer img{
+    height: 50px;
+}
+
+.footer{
+    background-color: #e5dbd1;
+    font-style: italic;
+    padding: 12px;
+}
+
+.footer ul{
+    margin-top: 12px;
+}
+
+.footer li:hover{
+    color: white;
+}
+
+.footer li:hover a{
+    color: white;
+}
